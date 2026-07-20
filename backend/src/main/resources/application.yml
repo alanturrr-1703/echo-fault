@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: echofault
+  config:
+    import: optional:file:../.env[.properties],optional:file:.env[.properties]
+
+echofault:
+  deepgram:
+    api-key: ${DEEPGRAM_API_KEY:}
+    model: nova-2
+    sample-rate: 16000
+    encoding: linear16
+    channels: 1
+    interim-results: true
+    punctuate: true
+
+logging:
+  level:
+    com.deepgram.echofault: INFO
