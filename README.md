@@ -6,8 +6,8 @@ EchoFault is a chaos engineering platform for Voice AI. It intentionally injects
 
 Think of it as **Chaos Monkey for Voice AI**.
 
-![Dashboard Screenshot](docs/screenshots/dashboard.png)
-*Screenshot placeholder — run the app and capture your dashboard here.*
+![EchoFault Dashboard](docs/screenshots/dashboard.png)
+*Live transcription with chaos controls — packet loss, latency, and silence injection sliders with real-time pipeline metrics.*
 
 ---
 
